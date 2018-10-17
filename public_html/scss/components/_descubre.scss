@@ -1,0 +1,43 @@
+.descubre{
+    text-align: center;
+    padding: 80px;
+    display: inline;
+}
+
+
+
+.descubreCoche1 { grid-area: coche1; }
+.descubreCoche2 { grid-area: coche2; }
+.descubreCoche3 { grid-area: coche3; }
+.descubreCoche4 { grid-area: coche4; }
+.textDescubre1 { grid-area: texto1; 
+                 color:black}
+.textDescubre2 { grid-area: texto2; }
+.textDescubre3 { grid-area: texto3; }
+.textDescubre4 { grid-area: texto4; }
+.textDescubre1:hover{
+    color: red;
+}
+.textDescubre2:hover{
+    color: red;
+}
+.textDescubre3:hover{
+    color: red;
+}
+.textDescubre4:hover{
+    color: red;
+}
+
+.grid-descubre {
+    display: grid;
+    grid-template-areas:
+        'coche1 coche2 coche3 coche4'
+        'texto1 texto2 texto3 texto4';
+    grid-gap: 0px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 1300px;
+}
+.grid-descubre > div {
+    text-align: center;
+}

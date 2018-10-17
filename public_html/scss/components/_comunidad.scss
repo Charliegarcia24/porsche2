@@ -1,0 +1,32 @@
+.comunidad{
+    text-align: center;
+    padding: 0px;
+    width: 300px;
+    height: 300px;
+    display: inline;
+
+}
+.imageLarge1 { grid-area: large1; }
+.imageLarge2 { grid-area: large2; }
+.imageLarge3 { grid-area: large3; }
+.imageLarge4 { grid-area: large4; }
+.imageLarge5 { grid-area: large5; }
+.imageLarge6 { grid-area: large6; }
+.imageLarge7 { grid-area: large7; }
+.imageLarge8 { grid-area: large8; }
+.imageLarge9 { grid-area: large9; }
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'large1 large1 large2 large3 large4 large4'
+        'large1 large1 large7 large7 large4 large4'
+        'large5 large6 large7 large7 large8 large9';
+    grid-gap: 0px;
+    padding: 0px;
+}
+.grid-container > div {
+    text-align: center;
+    padding: 0;
+}

@@ -1,0 +1,206 @@
+
+
+.modelos{
+    text-align: center;
+    align-content: center;
+    padding: 0px;
+    width: 300px;
+    height: 300px;
+    display: inline;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.configurar{
+    text-align: center;
+    padding: 0px;
+    width: 250px;
+    height: 250px;
+    display: inline;
+}
+
+.asistente{
+    text-align: center;
+    padding: 0px;
+    width: 300px;
+    height: 300px;
+    display: inline;
+
+}
+
+.descubre{
+    text-align: center;
+    padding: 80px;
+    display: inline;
+}
+
+.comunidad{
+    text-align: center;
+    padding: 0px;
+    width: 300px;
+    height: 300px;
+    display: inline;
+
+}
+body{
+    text-align: center;
+}
+
+.imageLarge1 { grid-area: large1; }
+.imageLarge2 { grid-area: large2; }
+.imageLarge3 { grid-area: large3; }
+.imageLarge4 { grid-area: large4; }
+.imageLarge5 { grid-area: large5; }
+.imageLarge6 { grid-area: large6; }
+.imageLarge7 { grid-area: large7; }
+.imageLarge8 { grid-area: large8; }
+.imageLarge9 { grid-area: large9; }
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'large1 large1 large2 large3 large4 large4'
+        'large1 large1 large7 large7 large4 large4'
+        'large5 large6 large7 large7 large8 large9';
+    grid-gap: 0px;
+    padding: 0px;
+}
+.grid-container > div {
+    text-align: center;
+    padding: 0;
+}
+
+.descubreCoche1 { grid-area: coche1; }
+.descubreCoche2 { grid-area: coche2; }
+.descubreCoche3 { grid-area: coche3; }
+.descubreCoche4 { grid-area: coche4; }
+.textDescubre1 { grid-area: texto1; 
+                 color:black}
+.textDescubre2 { grid-area: texto2; }
+.textDescubre3 { grid-area: texto3; }
+.textDescubre4 { grid-area: texto4; }
+.textDescubre1:hover{
+    color: red;
+}
+.textDescubre2:hover{
+    color: red;
+}
+.textDescubre3:hover{
+    color: red;
+}
+.textDescubre4:hover{
+    color: red;
+}
+
+.grid-descubre {
+    display: grid;
+    grid-template-areas:
+        'coche1 coche2 coche3 coche4'
+        'texto1 texto2 texto3 texto4';
+    grid-gap: 0px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 1300px;
+}
+.grid-descubre > div {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.titulos{
+    text-align: center;
+    font-family: "Courier New";
+    font-size: 45px;
+    color:black;
+}
+.titulos:hover{
+    color:lightblue;
+    text-decoration: underline;
+}
+
+.cargarMas{
+    margin-top: 30px;
+    margin-left:1600px;
+    background-color: black;
+    color:white;
+    border: black 2px;
+    width: 120px;
+    height: 60px;
+    font-size: 15px;
+}
+.cargarMas:hover{
+    background-color: red;
+}
+
+.navegacion1{
+    display: inline;
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.navegacion2{
+    display: inline;
+    float: left;
+    margin-right: 30px;
+
+}
+.navegacion3{
+    display: inline;
+    float: left;
+    margin-right: 30px;
+
+}
+.navegacion4{
+    display: inline;
+    float: left;
+    margin-right: 30px;
+
+}
+.navegacion5{
+    display: inline;
+    float: left;
+    margin-right: 30px;
+
+}
+.navegacion6{
+    display: inline;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.logo{
+    width: 175px;
+    height: 100px;
+}
+.listado1{
+    margin-left: 100px;
+    list-style-type: none;
+    text-align: left;
+}
+.tituloListado1{
+    float:left;
+}
+.listado2{
+   margin-left: 450px;
+    list-style-type: none;
+    text-align: left;
+}
+.listado3{
+    margin-left: 800px;
+    list-style-type: none;
+    text-align: left;
+}
+.listado4{
+        margin-left: 1125px;
+    list-style-type: none;
+    text-align: left;
+}
